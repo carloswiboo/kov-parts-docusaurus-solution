@@ -1,0 +1,8 @@
+{
+  "label": "Catálogos Producto",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Crear, modifica, elimina los catálogos que puede tener un producto"
+  }
+}

@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # Cambiar Contraseña
 
+:::tip Consejo Wiboo
+No olvides que una contraseña segura hará que el sistema sea más seguro
+:::
+
 Para poder cambiar la contraseña de los usuarios al sistema, deberás seleccionar el botón **contraseña**, que aparece en cada tarjeta de usuario como se muestra a continuación:
 
 ![Texto alternativo de la imagen](../../static/img/card_usuario.png)

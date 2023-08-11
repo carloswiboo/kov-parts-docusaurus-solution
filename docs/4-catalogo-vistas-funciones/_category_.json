@@ -1,0 +1,8 @@
+{
+  "label": "Catálogo Vistas y Funciones",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Revisa los catálogos de vistas y funciones"
+  }
+}

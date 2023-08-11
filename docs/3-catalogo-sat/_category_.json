@@ -1,0 +1,8 @@
+{
+  "label": "Catálogo SAT (Solo Lectura)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Revisa los catálogos activos del SAT"
+  }
+}
