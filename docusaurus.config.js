@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Wiboo México", // Usually your GitHub org/user name.
+  projectName: "kov-parts-docusaurus-solution", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -41,15 +41,6 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -67,19 +58,23 @@ const config = {
         title: "Kov Parts - CRM",
         logo: {
           alt: "KOv Parts Logo",
-          src: "img/logo.svg",
+          src: "img/docusaurus.png",
         },
         items: [
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Manual",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            href: "https://github.com/carloswiboo/kov-parts-next-solution",
+            label: "Back-End",
+            position: "right",
+          },
+          {
+            href: "https://github.com/carloswiboo/kov-parts-next-solution",
+            label: "Front-End",
             position: "right",
           },
         ],
@@ -88,41 +83,25 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Documentación",
             items: [
               {
-                label: "Tutorial",
+                label: "Manual",
                 to: "/docs/intro",
               },
             ],
           },
+
           {
-            title: "Community",
+            title: "Información",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Wiboo página oficial",
+                to: "https://www.wiboo.com.mx",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Contacto correo electrónico",
+                to: "mailto:contacto@wiboo.com.mx",
               },
             ],
           },
