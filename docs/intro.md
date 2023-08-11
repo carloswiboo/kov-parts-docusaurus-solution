@@ -1,47 +1,40 @@
 ---
+title: Introducción
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Aprende a utilizar el sistema CRM KOV Parts **en menos de 5 minutos**.
 
-## Getting Started
+## Comenzando
 
-Get started by **creating a new site**.
+Accediendo a la página **[de Inicio de sesión](https://devkov.wiboo.com.mx/)**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### ¿Qué necesitas para que el sistema funcione?
 
-### What you'll need
+- [Google Chrome](https://www.google.com/chrome/dr/download/?brand=JJTC&gclid=Cj0KCQjwuNemBhCBARIsADp74QTTxca0um2REXH5Eov3df1FTXPn1IRFe3q0ae2YrP5pdhK7BmvbBXEaAvmQEALw_wcB&gclsrc=aw.ds) En su versión más actualizada. Puedes utilizar cualquier otro navegador, sin embargo recomendamos **Google Chrome** debido a su amplia compatibilidad web.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Página de inicio / Inicio de sesión
 
-## Generate a new site
+![Texto alternativo de la imagen](../static/img/paginaprincipal.png)
 
-Generate a new Docusaurus site using the **classic template**.
+### Activar cuenta
 
-The classic template will automatically be added to your project after you run the command:
+Si eres un usuario nuevo, tu administrador deberá crear tu cuenta en el sistema, una vez realizada la creación llegará un correo electrónico en el cual deberás abrirlo y pulsar click para activarlo, la liga que llega por correo tiene un vencimiento de activación de 10 minutos, esto quiere decir que si pasan esos 10 minutos ya no podrás activar la cuenta y deberás solicitar que se haga el envío de la activación nuevamente.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Ingresando Usuario Contraseña
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+![Texto alternativo de la imagen](../static/img/iniciandosesion.png)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Para iniciar sesión deberás pulsar el botón iniciar sesión, posteriormente ingresar tu **usuario y contraseña**.
 
-## Start your site
+Recuerda que el usuario será el correo electrónico que hayan dado de alta y la contraseña deberá tener por lo menos 8 caracteres, **recuerda que una contraseña segura ayuda a tener una integridad en el sistema**.
 
-Run the development server:
+### Restablecer Contraseña
 
-```bash
-cd my-website
-npm run start
-```
+![Texto alternativo de la imagen](../static/img/recuperarcontrasena.png)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Si la respuesta es erronea, puedes solicitar el restablecimiento de la contraseña pulsando el botón **Recuperar Contraseña**, donde solicitaremos tu correo electrónico, una vez puesto, enviaremos un enlace para que puedas generar el cambio de tu contraseña.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Si aún así sigues teniendo problemas para acceder, te invitamos a ponerte en contacto con tu administrador para que restablezca la contraseña desde el sistema.
